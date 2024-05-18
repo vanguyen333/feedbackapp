@@ -1,4 +1,4 @@
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 const Header = ({ text, bgColor, textColor }) => {
   const headerstyles = {
@@ -17,6 +17,13 @@ const Header = ({ text, bgColor, textColor }) => {
 };
 Header.defaultProps = {
   text: 'Feeback UI',
+  bgColor: 'rgba(0,0,0,0.4)',
+  textColor: '#ff6a95',
+};
+Header.prototypes = {
+  text: PropTypes.string,
+  bgColor: PropTypes.string,
+  textColor: PropTypes.string,
 };
 
 export default Header;
