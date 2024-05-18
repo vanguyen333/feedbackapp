@@ -1,13 +1,13 @@
 // import PropTypes from 'prop-types';
 
-const Header = ({ text }) => {
-  const headerStyle = {
-    backgroundColor: 'blue',
-    color: 'red',
+const Header = ({ text, bgColor, textColor }) => {
+  const headerstyles = {
+    backgroundColor: bgColor,
+    color: textColor,
   };
   return (
     <>
-      <header style={headerStyle}>
+      <header style={headerstyles}>
         <div className="container">
           <h1>{text}</h1>
         </div>
