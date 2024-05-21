@@ -1,29 +1,29 @@
 import PropTypes from 'prop-types';
+import React from 'react';
 
 const Header = ({ text, bgColor, textColor }) => {
-  const headerstyles = {
+  const HeaderStyles = {
     backgroundColor: bgColor,
     color: textColor,
   };
   return (
-    <>
-      <header style={headerstyles}>
-        <div className="container">
-          <h1>{text}</h1>
-        </div>
-      </header>
-    </>
+    <header style={HeaderStyles}>
+      <div className="container">
+        <h2>{text}</h2>
+      </div>
+    </header>
   );
 };
-Header.defaultProps = {
-  text: 'Feeback UI',
-  bgColor: 'rgba(0,0,0,0.4)',
-  textColor: '#ff6a95',
-};
-Header.prototypes = {
-  text: PropTypes.string,
-  bgColor: PropTypes.string,
-  textColor: PropTypes.string,
-};
+
+// Header.defaultProps = {
+//   text: 'Feeback UI',
+//   bgColor: 'rgba(0,0,0,0.4)',
+//   textColor: '#ff6a95',
+// };
+
+// Header.propTypes = {
+//   text: PropTypes.string,
+//   bgColor: PropTypes.string,
+// };
 
 export default Header;
