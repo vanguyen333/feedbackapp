@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Header from './components/Header';
 import FeedbackData from './data/FeedbackData';
 import FeedbackList from './components/FeedbackList';
-
+import FeedbackStats from './components/FeedbackStats';
 function App() {
   const [feedback, setFeebdack] = useState(FeedbackData);
   const deleteFeedback = (id) => {
@@ -13,6 +13,7 @@ function App() {
     <>
       <Header />
       <div className="container">
+        <FeedbackStats feedback={feedback} />
         <FeedbackList feedback={feedback} handleDelete={deleteFeedback} />
       </div>
     </>
