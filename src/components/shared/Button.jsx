@@ -1,11 +1,10 @@
-import { isDisabled } from '@testing-library/user-event/dist/utils';
 import React from 'react';
 
 const Button = ({ children, version, type, isDisabled }) => {
   return (
-    <div type={type} isDisabled={isDisabled} className={`btn btn-${version}`}>
+    <button type={type} disabled={isDisabled} className={`btn btn-${version}`}>
       {children}
-    </div>
+    </button>
   );
 };
 Button.defaultProps = {
