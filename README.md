@@ -1,4 +1,6 @@
 node: 20.10.0
+This is a feedback app using front end technology of react with no back end support
+live link: https://feedbackapp1.netlify.app/
 
 # Getting Started with Create React App
 
