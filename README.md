@@ -1,6 +1,15 @@
-node: 20.10.0
-This is a feedback app using front end technology of react with no back end support
-live link: https://feedbackapp1.netlify.app/
+The node version I used for this project: 20.10.0
+
+# Front end app
+
+This is a feedback app using front end technology of react with no back end support, the app allows users to create a comment with ranking to be picked from 1 to 10 and to edit/delete a posted comment, here is the live link: https://feedbackapp1.netlify.app/
+
+To run the project locallly, download the project and open in VS code then run: npm install ( to install packages and dependencies)
+then run: npm start ( to run the project locally on the 3000 local host)
+
+# Full stack app
+
+npm run server : to open the 5000 local host for the backend
 
 # Getting Started with Create React App
 
