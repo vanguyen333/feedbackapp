@@ -7,10 +7,10 @@ const Button = ({ children, version, type, isDisabled }) => {
     </button>
   );
 };
-Button.defaultProps = {
-  version: 'primary',
-  type: 'button',
-  isDisabled: false,
-};
+// Button.defaultProps = {
+//   version: 'primary',
+//   type: 'button',
+//   isDisabled: false,
+// };
 
 export default Button;
