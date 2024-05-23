@@ -7,9 +7,13 @@ This is a feedback app using front end technology of react with no back end supp
 To run the project locallly, download the project and open in VS code then run: npm install ( to install packages and dependencies)
 then run: npm start ( to run the project locally on the 3000 local host)
 
-# Full stack app
+# Run the backend
 
 npm run server : to open the 5000 local host for the backend
+
+# Run the full stack, front and back end
+
+npm run dev
 
 # Getting Started with Create React App
 
