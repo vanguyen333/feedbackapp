@@ -16,11 +16,6 @@
       "text": "This is feedback item 3 coming from the backend"
     },
     {
-      "id": "19cf",
-      "text": "This is a test",
-      "rating": 2
-    },
-    {
       "id": "d923",
       "text": "The service was awesome!",
       "rating": 9
@@ -29,6 +24,11 @@
       "id": "6ac7",
       "text": "aksjh glskjglks  lgksjglskg",
       "rating": 8
+    },
+    {
+      "text": "This is a test for update function - updated ",
+      "rating": 7,
+      "id": "46ff"
     }
   ]
 }
